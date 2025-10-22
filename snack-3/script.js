@@ -26,7 +26,18 @@ console.log(numbers);
 
 
 //with map
-const increaseNumbers = numbers.map((thisNumber) => {
-    return ++thisNumber
+// const increaseNumbers = numbers.map((thisNumber) => {
+//     return ++thisNumber
+// })
+// console.log(increaseNumbers);
+
+
+
+//with forEach
+const increaseNumbers = []
+
+numbers.forEach((number)=>{
+    number = ++number
+    increaseNumbers.push(number)
 })
 console.log(increaseNumbers);
