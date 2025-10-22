@@ -44,14 +44,23 @@ log the two new arrays
 
 
 //with filter
-const longerZucchines = zucchine.filter((thisZucchina) => {
-  return thisZucchina.length >= 15
-})
+// const longerZucchines = zucchine.filter((thisZucchina) => {
+//   return thisZucchina.length >= 15
+// })
 
 
-const shorterZucchines = zucchine.filter((thisZucchina) => {
-  return thisZucchina.length < 15
-})
+// const shorterZucchines = zucchine.filter((thisZucchina) => {
+//   return thisZucchina.length < 15
+// })
+
+// console.log(longerZucchines);
+// console.log(shorterZucchines);
+
+//with filter one row
+const longerZucchines = zucchine.filter((thisZucchina) => thisZucchina.length >= 15)
+
+
+const shorterZucchines = zucchine.filter((thisZucchina) => thisZucchina.length < 15)
 
 console.log(longerZucchines);
 console.log(shorterZucchines);
