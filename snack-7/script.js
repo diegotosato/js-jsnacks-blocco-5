@@ -29,3 +29,21 @@ declare conditions
   - if object.id === 2 -> log in console
 */
 
+
+//with for
+for (let i = 0; i < students.length; i++) {
+  const thisStudent = students[i];
+  const studentID = students[i].id
+
+  if (studentID === 2) {
+    console.log(thisStudent);
+    
+  }
+}
+
+
+//with find
+const findStudent = students.find((thisStudent) => {
+  return thisStudent.id === 2
+})
+console.log(findStudent);
