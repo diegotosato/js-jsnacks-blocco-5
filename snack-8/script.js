@@ -33,7 +33,7 @@ declare condition
 //with for
 for (let i = 0; i < students.length; i++) {
   const thisStudent = students[i];
-  if (thisStudent.name === 'Marco Lanci'){
+  if (thisStudent.name === 'Marco Lanci') {
     console.log(thisStudent.class);
   }
 }
@@ -44,3 +44,11 @@ const findStudent = students.find((thisStudent) => {
   return thisStudent.name === 'Marco Lanci'
 })
 console.log(findStudent.class);
+
+
+//with forEach
+students.forEach((student) => {
+  if (student.name === 'Marco Lanci') {
+    console.log(student.class);
+  }
+})
