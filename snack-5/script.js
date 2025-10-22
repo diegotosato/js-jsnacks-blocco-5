@@ -12,3 +12,26 @@ push into the empty array
 log new array
 */
 
+
+//with for
+// const evenNumbers = []
+
+// for (let i = 0; i < nums.length; i++) {
+//     const thisNumber = nums[i];
+//     if (thisNumber % 2 === 0){
+//         evenNumbers.push(thisNumber)
+//     }
+// }
+
+// console.log(evenNumbers);
+
+
+//with filter
+const evenNumbers = nums.filter((thisNumber) => {
+    if (thisNumber % 2 === 0){
+        return true
+    }
+    return false
+})
+
+console.log(evenNumbers);
