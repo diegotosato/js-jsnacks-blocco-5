@@ -52,3 +52,11 @@ for (let i = 0; i < students.length; i++) {
 //with find one row
 const findStudent = students.find((thisStudent) => thisStudent.id === 2)
 console.log(findStudent);
+
+
+//with forEach
+students.forEach((student)=>{
+  if (student.id === 2) {
+    console.log(student);
+  }
+})
