@@ -29,3 +29,18 @@ declare condition
   - if key === 3C -> log key
 */
 
+
+//with for
+for (let i = 0; i < students.length; i++) {
+  const thisStudent = students[i];
+  if (thisStudent.name === 'Marco Lanci'){
+    console.log(thisStudent.class);
+  }
+}
+
+
+//with find
+const findStudent = students.find((thisStudent) => {
+  return thisStudent.name === 'Marco Lanci'
+})
+console.log(findStudent.class);
