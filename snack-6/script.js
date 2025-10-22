@@ -57,10 +57,26 @@ log the two new arrays
 // console.log(shorterZucchines);
 
 //with filter one row
-const longerZucchines = zucchine.filter((thisZucchina) => thisZucchina.length >= 15)
+// const longerZucchines = zucchine.filter((thisZucchina) => thisZucchina.length >= 15)
 
 
-const shorterZucchines = zucchine.filter((thisZucchina) => thisZucchina.length < 15)
+// const shorterZucchines = zucchine.filter((thisZucchina) => thisZucchina.length < 15)
+
+// console.log(longerZucchines);
+// console.log(shorterZucchines);
+
+
+//with forEach
+const longerZucchines = []
+const shorterZucchines = []
+
+zucchine.forEach((zucchina)=>{
+  if (zucchina.length >= 15) {
+    longerZucchines.push(zucchina)
+  } else if (zucchina.length < 15) {
+    shorterZucchines.push(zucchina)
+  }
+})
 
 console.log(longerZucchines);
 console.log(shorterZucchines);
