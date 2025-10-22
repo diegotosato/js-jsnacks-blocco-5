@@ -21,3 +21,11 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+
+/*
+initialize for cycle
+isolate single object "class" key
+declare condition
+  - if key === 3C -> log key
+*/
+
