@@ -27,11 +27,16 @@ log new array
 
 
 //with filter
-const evenNumbers = nums.filter((thisNumber) => {
-    if (thisNumber % 2 === 0){
-        return true
-    }
-    return false
-})
+// const evenNumbers = nums.filter((thisNumber) => {
+//     if (thisNumber % 2 === 0){
+//         return true
+//     }
+//     return false
+// })
 
+// console.log(evenNumbers);
+
+
+//with filter one row
+const evenNumbers = nums.filter((thisNumber) => thisNumber % 2 === 0)
 console.log(evenNumbers);
