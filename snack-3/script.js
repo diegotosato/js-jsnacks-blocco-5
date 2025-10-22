@@ -38,3 +38,5 @@ console.log(numbers);
 numbers.forEach((numb, i, arr)=>{
     arr[i] = ++numb
 })
+
+console.log(numbers);

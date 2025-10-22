@@ -34,3 +34,11 @@ const authorsNames = posts.map((thisAuthor) => {
 })
 
 console.log(authorsNames);
+
+
+//with forEach
+posts.forEach((person, i, arr)=>{
+  arr[i] = person.author
+})
+
+console.log(posts);
