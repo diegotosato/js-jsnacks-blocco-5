@@ -42,8 +42,13 @@ for (let i = 0; i < students.length; i++) {
 }
 
 
-//with find
-const findStudent = students.find((thisStudent) => {
-  return thisStudent.id === 2
-})
+// //with find
+// const findStudent = students.find((thisStudent) => {
+//   return thisStudent.id === 2
+// })
+// console.log(findStudent);
+
+
+//with find one row
+const findStudent = students.find((thisStudent) => thisStudent.id === 2)
 console.log(findStudent);
