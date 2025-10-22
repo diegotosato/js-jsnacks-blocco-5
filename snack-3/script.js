@@ -10,3 +10,23 @@ isolate single element
 single element have to increase
 */
 
+console.log(numbers);
+
+
+//with for
+// const increaseNumbers = []
+// for (let i = 0; i < numbers.length; i++) {
+//     let thisNumber = numbers[i];
+//     thisNumber++
+    
+//     increaseNumbers.push(thisNumber)
+// }
+
+// console.log(increaseNumbers);
+
+
+//with map
+const increaseNumbers = numbers.map((thisNumber) => {
+    return ++thisNumber
+})
+console.log(increaseNumbers);
