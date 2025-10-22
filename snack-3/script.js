@@ -34,10 +34,7 @@ console.log(numbers);
 
 
 //with forEach
-const increaseNumbers = []
 
-numbers.forEach((number)=>{
-    number = ++number
-    increaseNumbers.push(number)
+numbers.forEach((numb, i, arr)=>{
+    arr[i] = ++numb
 })
-console.log(increaseNumbers);
