@@ -7,3 +7,12 @@ const posts = [
 
 // Crea un nuovo array coi nomi di tutti gli autori
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
+
+/*
+create empty array
+initialize loop cycle
+isolate single object with name key
+push into empty array
+log new array
+*/
+
