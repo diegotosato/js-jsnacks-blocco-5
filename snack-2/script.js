@@ -6,3 +6,9 @@ const people = [
 
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
+
+/*
+initialize for cycle
+isolate single element = index of array .name
+log element in console
+*/
