@@ -12,3 +12,15 @@ initialize for cycle
 isolate single element = index of array .name
 log element in console
 */
+
+//with for
+for (let i = 0; i < people.length; i++) {
+  const thisPerson = people[i].name;
+  console.log(thisPerson);
+}
+
+//with forEach
+people.forEach((thisPerson) => {
+  thisPerson.name
+  console.log(thisPerson.name);
+})
