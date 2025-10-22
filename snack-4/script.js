@@ -4,6 +4,7 @@ const posts = [
   { author: 'Fabrizio', date: '12/9/2020', content: 'lorem ipsum...' },
   { author: 'Enrico', date: '09/12/2021', content: 'lorem ipsum...' },
 ]
+console.log(posts);
 
 // Crea un nuovo array coi nomi di tutti gli autori
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
@@ -29,16 +30,17 @@ log new array
 
 
 //with map
-const authorsNames = posts.map((thisAuthor) => {
-  return thisAuthor.author
-})
+// const authorsNames = posts.map((thisAuthor) => {
+//   return thisAuthor.author
+// })
 
-console.log(authorsNames);
+// console.log(authorsNames);
 
 
 //with forEach
-posts.forEach((person, i, arr)=>{
-  arr[i] = person.author
+const authorsNames = []
+posts.forEach((person)=>{
+  authorsNames.push(person.author)
 })
 
-console.log(posts);
+console.log(authorsNames);

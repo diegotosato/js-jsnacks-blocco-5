@@ -38,5 +38,16 @@ log new array
 
 
 //with filter one row
-const evenNumbers = nums.filter((thisNumber) => thisNumber % 2 === 0)
+// const evenNumbers = nums.filter((thisNumber) => thisNumber % 2 === 0)
+// console.log(evenNumbers);
+
+
+//with forEach
+const evenNumbers = []
+nums.forEach((number) => {
+    if (number % 2 === 0) {
+        evenNumbers.push(number)
+    }
+})
+
 console.log(evenNumbers);
