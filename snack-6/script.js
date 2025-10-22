@@ -12,3 +12,15 @@ const zucchine = [
 ];
 
 // A partire dall'array fornito, crea due array. Uno con le zucchine più lunghe di almeno 15cm. L'altro con le restanti.
+
+/*
+create two empty arrays
+initialize for cycle
+isolate single object with the key that i want
+declare conditions
+  - if key > condition -> push into 1st array
+  - if key < condition -> push into 2nd array
+log the two new arrays
+*/
+
+
