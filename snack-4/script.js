@@ -16,3 +16,21 @@ push into empty array
 log new array
 */
 
+
+//with for
+// const authorsNames = []
+
+// for (let i = 0; i < posts.length; i++) {
+//   const thisAuthor = posts[i].author;
+//   authorsNames.push(thisAuthor)
+// }
+
+// console.log(authorsNames);
+
+
+//with map
+const authorsNames = posts.map((thisAuthor) => {
+  return thisAuthor.author
+})
+
+console.log(authorsNames);
