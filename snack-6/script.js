@@ -24,3 +24,34 @@ log the two new arrays
 */
 
 
+//with for
+// const longerZucchines = []
+// const shorterZucchines = []
+
+// for (let i = 0; i < zucchine.length; i++) {
+//   const thisZucchina = zucchine[i];
+//   const zucchinaLenght = zucchine[i].length
+
+//   if (zucchinaLenght >= 15) {
+//     longerZucchines.push(thisZucchina)
+//   } else {
+//     shorterZucchines.push(thisZucchina)
+//   }
+// }
+
+// console.log(longerZucchines);
+// console.log(shorterZucchines);
+
+
+//with filter
+const longerZucchines = zucchine.filter((thisZucchina) => {
+  return thisZucchina.length >= 15
+})
+
+
+const shorterZucchines = zucchine.filter((thisZucchina) => {
+  return thisZucchina.length < 15
+})
+
+console.log(longerZucchines);
+console.log(shorterZucchines);
